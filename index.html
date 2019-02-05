@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="normalize.css" type="text/css">
+	<script src='jquery-3.3.1.min.js'> </script>
+
+	<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="photos_db.js"></script>
+	
+
+</head>
+<body onload="addAllPhotos(); addAllTowns()">
+	<div class="container">
+		<main class="container__mainblock">
+			<div class="mainblock__elemsorting">
+				<input  class="elemsorting__peoplefind" type="text" id="content" onkeyup="changeName()">
+				<select onchange="changeTown()" class="elemsorting__townsfind" id="towns">     </select>	
+				<span class="elemsorting__result"> Ничего не найдено </span>			
+			</div>
+			<div class="mainblock__photos" id="allphotos">			
+			</div>
+		</main>
+	</div>
+  <div class="popUpPhoto">
+  	 <div class="popUpPhoto__image">	
+  </div>
+</body>
+</html>
