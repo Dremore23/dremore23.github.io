@@ -56,7 +56,8 @@
 	background-size: cover;
 
 	margin-right: 20px;
-	margin-top: 20px;
+	margin-left: 20px;
+	margin-top: 40px;
 }
 .photo:hover {
 	transform: scale(1.03);
