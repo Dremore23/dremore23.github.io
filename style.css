@@ -3,7 +3,7 @@
 	width: 100%;
 	max-width: 1500px;	
 
-	background: lightblue;
+	background: url("background4.png");
 
 	margin: 0 auto;
 }
@@ -31,7 +31,6 @@
 	display: none;
 
 	color: white;
-
   text-align: center;
 }
 .mainblock__photos {
@@ -42,7 +41,7 @@
 	align-items: flex-start;
 
 	width: 100%;
-	min-height: 900px;
+	min-height: 600px;
   box-sizing: border-box;
 
 	padding: 30px;
@@ -66,17 +65,18 @@
 }
 .popUpPhoto {
 	display: none;
+  justify-content: center;
+	align-items: center;
 
-
-  background: rgba(0,0,0,0.9);
-	width: 100%;
+  width: 100%;
 	height: 100%;
+  
+  background: rgba(0,0,0,0.9);
+	
 	position: fixed;
 	z-index: 228;
 	top: 0;
 	left: 0;
-	justify-content: center;
-	align-items: center;
 }
 .popUpPhoto__image {
 	width: 85%;

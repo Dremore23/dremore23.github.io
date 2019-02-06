@@ -65,7 +65,7 @@ function changeName() {
         }
 			}
 	}
-	proverka();
+	verification();
 }
 
 function changeTown() {
@@ -100,7 +100,7 @@ for (var i=0; i < photos_db.length ; i++)
         $(photosAll[i]).remove();       
 			}
 	}
-	proverka();
+	verification();
 }
 
 
@@ -123,7 +123,7 @@ var findPopUp = document.querySelector(".popUpPhoto");
 
  });
 
-function proverka() {
+function verification() {
 	
  var photosAll = document.querySelectorAll(".photo");
  var i = photosAll.length;
